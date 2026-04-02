@@ -18,3 +18,6 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+# Modify device tree
+cp -rf ./target/linux/ramips/dts/mt7621_xiaomi_mi-router-4a-3g-v2.dtsi
